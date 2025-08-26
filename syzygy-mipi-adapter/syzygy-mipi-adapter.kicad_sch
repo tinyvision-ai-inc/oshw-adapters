@@ -117,7 +117,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -133,8 +133,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -159,7 +159,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -186,10 +186,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -223,6 +223,17 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -278,6 +289,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4490,6 +4519,164 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MK11_PROG-rescue:TestPoint_Small-custom"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small-custom"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small-custom_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -7449,6 +7636,17 @@
 		)
 		(uuid "0c5e3d67-7a7f-46f9-bc07-41667d8de879")
 	)
+	(text "Potential divider configures\nI2C address of host I2C\n"
+		(exclude_from_sim no)
+		(at 155.956 216.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e55682a-62ab-4974-85b8-648e2097cc60")
+	)
 	(text "MISO1"
 		(exclude_from_sim no)
 		(at 136.398 180.1025 0)
@@ -7539,9 +7737,9 @@
 		)
 		(uuid "398ea234-2059-4b35-9d24-bc9420ab202d")
 	)
-	(text "Muxed to host I2C. Broadcast mode?"
+	(text "PIO state machine I2C\nmasters muxed to host\nI2C. Broadcast mode?"
 		(exclude_from_sim no)
-		(at 165.862 137.922 0)
+		(at 169.418 137.668 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7565,7 +7763,7 @@
 	)
 	(text "Board Mounting Holes"
 		(exclude_from_sim no)
-		(at 358.14 228.6 0)
+		(at 308.61 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7584,6 +7782,17 @@
 			(justify left bottom)
 		)
 		(uuid "46b566b5-183d-4c0c-9ca4-4a5cdcc38089")
+	)
+	(text "Estimate FPC internal\nskew to be 1mm for\nlength matching purposes."
+		(exclude_from_sim no)
+		(at 379.476 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c33187d-36c3-4561-a524-a81220560264")
 	)
 	(text "MOSI0"
 		(exclude_from_sim no)
@@ -7954,7 +8163,7 @@
 	)
 	(text "Cable Mounting Holes"
 		(exclude_from_sim no)
-		(at 330.2 228.6 0)
+		(at 308.61 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8104,6 +8313,12 @@
 		(uuid "1f1220d7-5e70-4e88-ad45-ada32b1f5f89")
 	)
 	(junction
+		(at 180.34 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "236ef222-2f0f-4eb8-acc1-eabf03b41efb")
+	)
+	(junction
 		(at 377.19 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8192,6 +8407,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d0a2e2b-fc16-4fcf-bc54-5bff9d875733")
+	)
+	(junction
+		(at 64.77 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e3b5989-ce52-47cc-8767-e958cc71d294")
 	)
 	(junction
 		(at 43.18 153.67)
@@ -8518,12 +8739,6 @@
 		(uuid "e831d9d1-eee6-4117-95b7-8ba568a20553")
 	)
 	(junction
-		(at 65.405 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea2b3268-c691-465c-8f77-463450875311")
-	)
-	(junction
 		(at 252.73 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8588,7 +8803,7 @@
 		(uuid "34ab3d3f-947c-4b94-b44a-e5c81512cfb6")
 	)
 	(no_connect
-		(at 339.09 234.95)
+		(at 317.5 226.06)
 		(uuid "3b4e518e-6098-4a67-9a7a-e2a145196071")
 	)
 	(no_connect
@@ -8596,7 +8811,7 @@
 		(uuid "41c841cf-7304-466c-8db4-f4525dc45d6a")
 	)
 	(no_connect
-		(at 365.76 234.95)
+		(at 317.5 243.84)
 		(uuid "4b910ecb-64d8-45b4-a9cb-fea89439e061")
 	)
 	(no_connect
@@ -8608,7 +8823,7 @@
 		(uuid "6d37a337-dc12-490b-8546-4e8622997d27")
 	)
 	(no_connect
-		(at 349.25 234.95)
+		(at 327.66 226.06)
 		(uuid "71ae86c7-da5b-4b0b-b993-bfc168d6c56a")
 	)
 	(no_connect
@@ -8664,10 +8879,6 @@
 		(uuid "b9148f73-7ffe-467d-903c-f67013c83b89")
 	)
 	(no_connect
-		(at 153.67 224.79)
-		(uuid "b9b15cda-cb2f-45f9-ba8d-284eeff06e7c")
-	)
-	(no_connect
 		(at 153.67 212.09)
 		(uuid "bb245aae-7503-49d3-a683-cbeccb16d329")
 	)
@@ -8708,7 +8919,7 @@
 		(uuid "e9e0b46e-f9be-41bb-ad81-f326347f9719")
 	)
 	(no_connect
-		(at 375.92 234.95)
+		(at 327.66 243.84)
 		(uuid "f131b177-89e7-4ee0-8fae-21d6f354f51d")
 	)
 	(wire
@@ -8770,6 +8981,16 @@
 			(type default)
 		)
 		(uuid "0276e605-486f-4ab0-aa59-34a41fa8d9c4")
+	)
+	(wire
+		(pts
+			(xy 58.42 184.15) (xy 64.77 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029ec324-51dc-428d-9ad8-7fcb0acc916b")
 	)
 	(wire
 		(pts
@@ -9023,6 +9244,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 184.15) (xy 64.77 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e43d046-0aa1-44da-b14f-073da0478189")
+	)
+	(wire
+		(pts
 			(xy 273.05 180.34) (xy 273.05 185.42)
 		)
 		(stroke
@@ -9160,6 +9391,16 @@
 			(type default)
 		)
 		(uuid "12e28885-1f30-49cb-879c-4c002b37ef24")
+	)
+	(wire
+		(pts
+			(xy 168.91 224.79) (xy 165.1 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1343805b-ae15-4506-a7c4-f405856ba86a")
 	)
 	(wire
 		(pts
@@ -9470,6 +9711,16 @@
 			(type default)
 		)
 		(uuid "248a867a-04cd-4ad9-a977-7fb25e18fc34")
+	)
+	(wire
+		(pts
+			(xy 153.67 224.79) (xy 160.02 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25393332-d010-49bc-99f2-ff9db9ac5896")
 	)
 	(wire
 		(pts
@@ -10273,6 +10524,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 186.69) (xy 64.77 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cae90cf-dcd4-4914-8a5d-7d3a19945eb9")
+	)
+	(wire
+		(pts
 			(xy 128.27 77.47) (xy 130.81 77.47)
 		)
 		(stroke
@@ -10450,16 +10711,6 @@
 			(type default)
 		)
 		(uuid "693dee9b-7c48-4ef2-8f7b-4058326d7beb")
-	)
-	(wire
-		(pts
-			(xy 63.5 175.26) (xy 65.405 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69b80265-dfc7-48a4-88f7-82866da55f64")
 	)
 	(wire
 		(pts
@@ -10800,6 +11051,16 @@
 			(type default)
 		)
 		(uuid "855cfb13-04cb-4679-bd22-a090b500e681")
+	)
+	(wire
+		(pts
+			(xy 180.34 227.33) (xy 180.34 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85726edc-998b-44af-9077-cc866376b1f5")
 	)
 	(wire
 		(pts
@@ -11293,16 +11554,6 @@
 	)
 	(wire
 		(pts
-			(xy 65.405 175.26) (xy 65.405 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ac54cb-c490-492f-949e-49e6d5a44198")
-	)
-	(wire
-		(pts
 			(xy 200.66 81.28) (xy 200.66 86.36)
 		)
 		(stroke
@@ -11493,6 +11744,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 175.26) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b41e0f-8eff-414c-9c79-15988494a326")
+	)
+	(wire
+		(pts
 			(xy 247.65 237.49) (xy 252.73 237.49)
 		)
 		(stroke
@@ -11533,7 +11794,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 227.33) (xy 168.91 227.33)
+			(xy 153.67 227.33) (xy 180.34 227.33)
 		)
 		(stroke
 			(width 0)
@@ -11763,6 +12024,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 224.79) (xy 180.34 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc32923-aa0b-4968-a401-3f18e6f05c8a")
+	)
+	(wire
+		(pts
 			(xy 134.62 82.55) (xy 106.68 82.55)
 		)
 		(stroke
@@ -11820,16 +12091,6 @@
 			(type default)
 		)
 		(uuid "c218e3a5-afd6-4494-a290-42b1b07dd036")
-	)
-	(wire
-		(pts
-			(xy 65.405 184.15) (xy 58.42 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22ded45-f055-4170-b2ef-4c46af51e30c")
 	)
 	(wire
 		(pts
@@ -12290,16 +12551,6 @@
 			(type default)
 		)
 		(uuid "e4918e56-5d2d-4322-8c06-ec9ed15edbf3")
-	)
-	(wire
-		(pts
-			(xy 65.405 184.15) (xy 65.405 186.055)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5098f26-516d-405a-a4a5-fbfa3ca2e246")
 	)
 	(wire
 		(pts
@@ -14154,7 +14405,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_2")
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 363.22 234.95 90)
+		(at 314.96 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14162,7 +14413,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000606d8e13")
 		(property "Reference" "H4"
-			(at 361.95 238.76 90)
+			(at 313.69 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14421,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 363.1438 231.2416 90)
+			(at 314.8838 240.1316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14179,7 +14430,7 @@
 			)
 		)
 		(property "Footprint" "SYZYGY:MountingHole_3.2mm_M3_6.5mm_Pad_TopBottom"
-			(at 363.22 234.95 0)
+			(at 314.96 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 363.22 234.95 0)
+			(at 314.96 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 234.95 0)
+			(at 314.96 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,7 +14469,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 346.71 234.95 90)
+		(at 325.12 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14226,7 +14477,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000606df9a7")
 		(property "Reference" "H2"
-			(at 345.44 238.76 90)
+			(at 323.85 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,7 +14485,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 346.6338 231.2416 90)
+			(at 325.0438 222.3516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +14494,7 @@
 			)
 		)
 		(property "Footprint" "SYZYGY:MountingHole_3.2mm_M3_6.5mm_Pad_TopBottom"
-			(at 346.71 234.95 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14252,7 +14503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 234.95 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,7 +14512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.71 234.95 0)
+			(at 325.12 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14283,7 +14534,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_5")
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 336.55 234.95 90)
+		(at 314.96 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14291,7 +14542,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000606dfd32")
 		(property "Reference" "H1"
-			(at 335.28 238.76 90)
+			(at 313.69 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +14550,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 336.4738 231.2416 90)
+			(at 314.8838 222.3516 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14308,7 +14559,7 @@
 			)
 		)
 		(property "Footprint" "SYZYGY:MountingHole_3.2mm_M3_6.5mm_Pad_TopBottom"
-			(at 336.55 234.95 0)
+			(at 314.96 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,7 +14568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 234.95 0)
+			(at 314.96 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14326,7 +14577,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 336.55 234.95 0)
+			(at 314.96 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14505,6 +14756,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0237c314-95e2-4678-84d0-5efce053b52e")
+		(property "Reference" "FID7"
+			(at 396.24 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 393.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 393.7 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 252.73 229.87 0)
 		(unit 1)
@@ -14660,6 +14975,70 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0888f369-bed0-4594-9258-d1a18eea9523")
+		(property "Reference" "FID8"
+			(at 396.24 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 393.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 393.7 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID8")
 					(unit 1)
 				)
 			)
@@ -14942,6 +15321,70 @@
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "Q2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd69d9e-93fa-458b-b9c0-ec497f1c71cd")
+		(property "Reference" "FID2"
+			(at 396.24 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 393.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 393.7 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID2")
+					(unit 1)
 				)
 			)
 		)
@@ -15471,7 +15914,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_3")
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 373.38 234.95 90)
+		(at 325.12 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15479,7 +15922,7 @@
 		(dnp no)
 		(uuid "19014865-5965-4d41-aa6a-628404d8b25f")
 		(property "Reference" "H6"
-			(at 372.11 238.76 90)
+			(at 323.85 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15487,7 +15930,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 373.3038 231.2416 90)
+			(at 325.0438 240.1316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +15939,7 @@
 			)
 		)
 		(property "Footprint" "SYZYGY:MountingHole_3.2mm_M3_6.5mm_Pad_TopBottom"
-			(at 373.38 234.95 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15505,7 +15948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 234.95 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15514,7 +15957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 373.38 234.95 0)
+			(at 325.12 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,6 +15971,70 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 378.46 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "194e2dec-8f8f-4bbc-8f55-173251a95cd6")
+		(property "Reference" "FID5"
+			(at 381 237.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 381 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 378.46 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 378.46 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -15817,6 +16324,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 378.46 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e3c60ae-e76f-4d68-8514-8aa7e2aa2802")
+		(property "Reference" "FID3"
+			(at 381 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 381 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 378.46 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 378.46 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 195.58 90)
 		(unit 1)
@@ -15971,7 +16542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 65.405 186.055 0)
+		(at 64.77 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15979,7 +16550,7 @@
 		(dnp no)
 		(uuid "260f86aa-50ff-44e0-ac09-6edb00a63e0f")
 		(property "Reference" "#PWR072"
-			(at 65.405 192.405 0)
+			(at 64.77 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15988,7 +16559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 65.532 190.4492 0)
+			(at 64.897 191.0842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15996,7 +16567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.405 186.055 0)
+			(at 64.77 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16005,7 +16576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.405 186.055 0)
+			(at 64.77 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +16585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 65.405 186.055 0)
+			(at 64.77 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,6 +17454,70 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 378.46 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38aeec4f-0111-45d3-9463-88e60742028e")
+		(property "Reference" "FID1"
+			(at 381 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 381 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 378.46 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 378.46 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -18052,6 +18687,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 378.46 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4851e44a-35e9-4a76-8c44-87a9270f4f9b")
+		(property "Reference" "FID6"
+			(at 381 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 381 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 378.46 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 378.46 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 161.29 180)
 		(unit 1)
@@ -18218,6 +18917,70 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529eb572-65fb-4c49-a33b-53f3bc62c707")
+		(property "Reference" "FID4"
+			(at 396.24 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.75mm_Mask1.5mm"
+			(at 393.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 393.7 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "FID4")
 					(unit 1)
 				)
 			)
@@ -18613,7 +19376,7 @@
 				)
 			)
 		)
-		(property "Value" "W25X20CLSNIG"
+		(property "Value" "W25Q32JVSSIQ"
 			(at 223.774 78.994 0)
 			(effects
 				(font
@@ -19626,7 +20389,7 @@
 	)
 	(symbol
 		(lib_id "SZG-TEMPLATE-STD:+3.3V-power")
-		(at 173.99 227.33 270)
+		(at 168.91 224.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19635,7 +20398,7 @@
 		(dnp no)
 		(uuid "76a01776-5cc0-4dcc-be43-679701fe225f")
 		(property "Reference" "#PWR017"
-			(at 170.18 227.33 0)
+			(at 165.1 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19644,7 +20407,7 @@
 			)
 		)
 		(property "Value" "PVIOD"
-			(at 179.578 227.33 90)
+			(at 174.498 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19652,7 +20415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 227.33 0)
+			(at 168.91 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,7 +20424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 227.33 0)
+			(at 168.91 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19670,7 +20433,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 227.33 0)
+			(at 168.91 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20081,6 +20844,94 @@
 		)
 	)
 	(symbol
+		(lib_id "MK11_PROG-rescue:TestPoint_Small-custom")
+		(at 346.71 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "802f85ef-6727-44b7-ba62-371a4e4b00b2")
+		(property "Reference" "LOGO1"
+			(at 346.71 225.171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYZYGY STD logo"
+			(at 346.71 227.4824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SYZYGY:SYZYGY_STD_Logo"
+			(at 351.79 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 346.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "DNP"
+			(at 346.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 346.71 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 163.83 83.82 0)
 		(unit 1)
@@ -20232,6 +21083,140 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "832e14c7-ff0e-4bc7-bcc5-5627c3f0c553")
+		(property "Reference" "R20"
+			(at 182.118 221.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 182.118 223.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 180.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57997be0-dd24-425d-830e-58f8b3d0e391")
+		)
+		(pin "2"
+			(uuid "e283313c-244a-4f40-ae22-afb2bb2f79e8")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 180.34 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83456764-6765-4431-b636-03fb3d449fd1")
+		(property "Reference" "#PWR058"
+			(at 180.34 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P3V3D"
+			(at 180.721 215.3158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 180.34 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5381c8f5-6214-43ec-8ab7-39ba3e54f2a4")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -20510,6 +21495,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "8af27fe5-1bad-487a-8ad0-e5bd148aa359")
+		(property "Reference" "R21"
+			(at 182.118 231.2416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0805"
+			(at 182.118 233.553 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 180.34 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebc557b0-0974-4ce0-b5bf-786872d1d6bb")
+		)
+		(pin "2"
+			(uuid "d858fda0-771b-433c-85cd-60dd20cbd75a")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SZG-TEMPLATE-STD:+3.3V-power")
 		(at 270.51 114.3 90)
 		(unit 1)
@@ -20575,7 +21629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 171.45 227.33 270)
+		(at 162.56 224.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20583,7 +21637,7 @@
 		(dnp no)
 		(uuid "8c77cb45-0bb1-4a76-bbe0-6704c16c8a0a")
 		(property "Reference" "R7"
-			(at 171.196 225.044 90)
+			(at 159.004 223.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20591,7 +21645,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 171.196 229.362 90)
+			(at 166.624 223.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20599,7 +21653,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20608,7 +21662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20617,7 +21671,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20626,7 +21680,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20635,7 +21689,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20644,7 +21698,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20653,7 +21707,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 171.45 227.33 0)
+			(at 162.56 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21433,7 +22487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 182.88 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21459,7 +22513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 182.88 100.33 0)
 			(effects
 				(font
@@ -21477,7 +22531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 182.88 100.33 0)
 			(effects
 				(font
@@ -21494,6 +22548,9 @@
 		)
 		(pin "3"
 			(uuid "e45fbdd8-3bbe-43b9-9992-a532ef0fd8f4")
+		)
+		(pin "4"
+			(uuid "fd6d5f1a-ee00-46f4-9d95-5ae3e41c31bd")
 		)
 		(instances
 			(project ""
@@ -22278,6 +23335,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 177.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae72c3fc-3295-42ec-9501-7128a15a0c5e")
+		(property "Reference" "#PWR056"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.927 109.8042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bfbf4e8-1a0e-4ad4-b85c-002ad77c952f")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 26.67 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22653,6 +23775,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 234.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bce40e2f-a553-43d3-adff-ec6e16bc1a25")
+		(property "Reference" "#PWR057"
+			(at 180.34 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f6fc747-f784-47c8-b5b5-d3ba627c8700")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -24660,6 +25849,94 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MK11_PROG-rescue:TestPoint_Small-custom")
+		(at 363.22 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb9a5128-13f5-4322-8a2f-5e54b5e2a551")
+		(property "Reference" "LOGO2"
+			(at 363.22 225.171 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYZYGY logo"
+			(at 363.22 227.4824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SYZYGY:SYZYGY_Logo"
+			(at 368.3 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 363.22 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "DNP"
+			(at 363.22 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 363.22 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
