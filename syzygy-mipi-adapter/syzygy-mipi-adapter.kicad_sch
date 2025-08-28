@@ -9594,7 +9594,7 @@
 		)
 		(uuid "ab339d8a-7ff2-4417-8f78-15ee94261cd1")
 	)
-	(text "The ADC requires a 48MHz clock, which is\nprovided by the USB PLL. Once the ADC has\nbeen used to measure R_GA:SZG_3V3 ratio,\nthe ADC is disabled so that the USB PLL\ncan be reused as a clock generator source."
+	(text "The ADC requires a 48MHz clock, provided\nby the USB PLL. Once the ADC has\nmeasured the R_GA:SZG_3V3 ratio,\nthe ADC is disabled so that the USB PLL\ncan be reused as a clock generator source."
 		(exclude_from_sim no)
 		(at 191.516 222.758 0)
 		(effects
@@ -17413,7 +17413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 254.508 232.41 90)
 			(effects
 				(font
@@ -19858,7 +19858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 176.53 140.335 90)
 			(effects
 				(font
@@ -20738,7 +20738,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 256.54 153.67 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20763,7 +20763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 254.508 153.67 90)
 			(effects
 				(font
@@ -20818,7 +20818,7 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -21158,7 +21158,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 256.54 180.34 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21183,7 +21183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 254.508 180.34 90)
 			(effects
 				(font
@@ -21238,7 +21238,7 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN1")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -21338,7 +21338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 254.508 205.74 90)
 			(effects
 				(font
@@ -23708,7 +23708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 191.77 150.495 90)
 			(effects
 				(font
@@ -25002,7 +25002,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 278.13 153.67 0)
-		(unit 1)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -25027,7 +25027,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 276.098 153.67 90)
 			(effects
 				(font
@@ -25082,7 +25082,7 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN1")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -26049,7 +26049,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 278.13 232.41 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -26074,7 +26074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 276.098 232.41 90)
 			(effects
 				(font
@@ -26129,7 +26129,7 @@
 			(project "syzygy-mipi-adapter"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN2")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -27499,7 +27499,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 278.13 205.74 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -27524,7 +27524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 276.098 205.74 90)
 			(effects
 				(font
@@ -27579,7 +27579,7 @@
 			(project "syzygy-mipi-adapter"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN2")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -28173,7 +28173,7 @@
 	(symbol
 		(lib_id "Device:R_Pack04_Split")
 		(at 278.13 180.34 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28198,7 +28198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
 			(at 276.098 180.34 90)
 			(effects
 				(font
@@ -28253,7 +28253,7 @@
 			(project ""
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "RN1")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
