@@ -9801,7 +9801,13 @@
 		(uuid "026901d5-ee07-4293-9a3e-ef8a30a79339")
 	)
 	(junction
-		(at 181.61 133.35)
+		(at 177.8 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "032f1179-fc55-4589-b081-2f976f288496")
+	)
+	(junction
+		(at 201.93 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "035e5841-c5e5-43fd-bab2-95e228cd92d5")
@@ -9817,6 +9823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07a0ba2d-a1ac-4485-acd0-9526d43ed3c5")
+	)
+	(junction
+		(at 172.72 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09efe7cf-7de0-48e7-8a1b-afc8665c9343")
 	)
 	(junction
 		(at 377.19 182.88)
@@ -9919,6 +9931,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29081ced-b723-40f1-970e-5591fd84a483")
+	)
+	(junction
+		(at 168.91 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c041c68-cb2c-4df1-9d5a-04d63cb08353")
 	)
 	(junction
 		(at 130.81 77.47)
@@ -10071,7 +10089,7 @@
 		(uuid "566d71af-0484-46ba-8571-78f4cab2a60d")
 	)
 	(junction
-		(at 181.61 130.81)
+		(at 201.93 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57b9d663-79c0-4a86-8847-cd6fec6e4b8d")
@@ -10113,7 +10131,7 @@
 		(uuid "641da448-b430-431b-8668-d8f8dbf2b03a")
 	)
 	(junction
-		(at 196.85 138.43)
+		(at 217.17 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6514c6ef-fe7d-4474-acbf-fca38eafccfa")
@@ -10185,7 +10203,7 @@
 		(uuid "8578cbc1-518d-4661-84d3-bc146e98c86b")
 	)
 	(junction
-		(at 196.85 143.51)
+		(at 217.17 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c8644f2-f7e5-4f00-aa30-0f33fb7294c5")
@@ -10225,6 +10243,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ceb2f99-e9d0-47c9-9cec-8bedba4fc0d9")
+	)
+	(junction
+		(at 186.69 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9faf886e-57f9-410b-85b9-d884fa87d462")
 	)
 	(junction
 		(at 82.55 67.31)
@@ -10281,7 +10305,7 @@
 		(uuid "adc32655-4078-42a5-8c0c-f112ec86dbc4")
 	)
 	(junction
-		(at 181.61 128.27)
+		(at 201.93 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5a3fe9-bd82-45f3-adf9-6754980c06ae")
@@ -10351,6 +10375,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bedb5e89-0cbd-4d5c-84b2-d2b482d3acdc")
+	)
+	(junction
+		(at 181.61 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf32573e-d38d-4aa8-a01c-5e0dec4e2e29")
 	)
 	(junction
 		(at 256.54 238.76)
@@ -10431,7 +10461,7 @@
 		(uuid "e831d9d1-eee6-4117-95b7-8ba568a20553")
 	)
 	(junction
-		(at 196.85 140.97)
+		(at 217.17 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee98be1c-8313-4bd0-ba45-1f7aee8fb9b0")
@@ -10441,6 +10471,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f42cb73f-0407-4993-a307-e42ab99283a8")
+	)
+	(junction
+		(at 190.5 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f744c5e0-ebe0-4289-a562-304deadba498")
 	)
 	(junction
 		(at 139.7 38.1)
@@ -10842,7 +10878,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 186.69 140.97)
+			(xy 153.67 140.97) (xy 190.5 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10872,7 +10908,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 181.61 128.27)
+			(xy 201.93 125.73) (xy 201.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11002,6 +11038,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 127) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffcc7d7-039f-4504-9c17-c27b083d4c59")
+	)
+	(wire
+		(pts
 			(xy 375.92 100.33) (xy 377.19 100.33)
 		)
 		(stroke
@@ -11109,6 +11155,16 @@
 			(type default)
 		)
 		(uuid "134f656e-a53c-4646-ad72-79c87e5f7838")
+	)
+	(wire
+		(pts
+			(xy 181.61 135.89) (xy 191.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "138184cf-1e9f-4005-b1ee-f7f789f5842d")
 	)
 	(wire
 		(pts
@@ -11392,6 +11448,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 127) (xy 181.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd9ba09-8a48-403d-a776-6c2c02f9a698")
+	)
+	(wire
+		(pts
 			(xy 165.1 191.77) (xy 161.29 191.77)
 		)
 		(stroke
@@ -11442,7 +11508,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 135.89) (xy 196.85 138.43)
+			(xy 217.17 135.89) (xy 217.17 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11542,7 +11608,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 130.81) (xy 181.61 133.35)
+			(xy 201.93 130.81) (xy 201.93 133.35)
 		)
 		(stroke
 			(width 0)
@@ -11670,6 +11736,16 @@
 		)
 		(uuid "300aaac6-0d1a-4869-9799-8f91a39a1bdd")
 	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310fc27c-e506-464a-a554-920d82872486")
+	)
 	(polyline
 		(pts
 			(xy 387.096 85.09) (xy 388.62 85.09)
@@ -11702,7 +11778,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 186.69 143.51)
+			(xy 153.67 143.51) (xy 207.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11819,6 +11895,16 @@
 			(type default)
 		)
 		(uuid "387fb1e3-f7b7-4b54-b696-0ee551994a95")
+	)
+	(wire
+		(pts
+			(xy 190.5 140.97) (xy 207.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c377c6-8738-4487-8765-df25d972bd7f")
 	)
 	(wire
 		(pts
@@ -12242,7 +12328,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 128.27) (xy 171.45 128.27)
+			(xy 153.67 128.27) (xy 168.91 128.27)
 		)
 		(stroke
 			(width 0)
@@ -12369,6 +12455,16 @@
 			(type default)
 		)
 		(uuid "5b847601-1b86-4c59-8515-8814d91abbc5")
+	)
+	(wire
+		(pts
+			(xy 172.72 127) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c175db8-3d85-441d-8043-40efce894424")
 	)
 	(wire
 		(pts
@@ -12532,7 +12628,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 186.69 146.05)
+			(xy 153.67 146.05) (xy 207.01 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12622,7 +12718,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 143.51) (xy 196.85 146.05)
+			(xy 217.17 143.51) (xy 217.17 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12682,7 +12778,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 128.27) (xy 181.61 130.81)
+			(xy 201.93 128.27) (xy 201.93 130.81)
 		)
 		(stroke
 			(width 0)
@@ -12729,6 +12825,16 @@
 			(type default)
 		)
 		(uuid "6ef042c4-0d23-41ac-bcf6-c2c624b5aa33")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fed4b1d-c277-4595-846d-65ab7174ddc0")
 	)
 	(wire
 		(pts
@@ -12902,6 +13008,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 130.81) (xy 191.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797cd959-544c-4a7f-a04d-ba933ad88bea")
+	)
+	(wire
+		(pts
 			(xy 240.03 64.77) (xy 240.03 60.96)
 		)
 		(stroke
@@ -12982,7 +13098,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 130.81) (xy 171.45 130.81)
+			(xy 153.67 130.81) (xy 172.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13029,6 +13145,16 @@
 			(type default)
 		)
 		(uuid "82f17f4c-a699-46cb-a6c3-d57486dd634b")
+	)
+	(wire
+		(pts
+			(xy 186.69 138.43) (xy 207.01 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f7cbf8-e85f-47c0-9eeb-873807db7c12")
 	)
 	(wire
 		(pts
@@ -13252,7 +13378,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 196.85 140.97)
+			(xy 217.17 138.43) (xy 217.17 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13412,7 +13538,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 171.45 133.35)
+			(xy 153.67 133.35) (xy 177.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -13672,7 +13798,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 135.89) (xy 171.45 135.89)
+			(xy 153.67 135.89) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -14272,6 +14398,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 133.35) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fc4ffe-a090-4974-be3a-1f064744e5dd")
+	)
+	(wire
+		(pts
 			(xy 69.85 161.29) (xy 85.09 161.29)
 		)
 		(stroke
@@ -14652,7 +14788,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 140.97) (xy 196.85 143.51)
+			(xy 217.17 140.97) (xy 217.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -14692,7 +14828,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 133.35) (xy 181.61 135.89)
+			(xy 201.93 133.35) (xy 201.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -14792,6 +14928,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 127) (xy 168.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df420732-e179-4d44-bb99-762e0d89d713")
+	)
+	(wire
+		(pts
 			(xy 38.1 100.33) (xy 38.1 99.06)
 		)
 		(stroke
@@ -14859,6 +15005,16 @@
 			(type default)
 		)
 		(uuid "e5c97456-b555-4b63-8595-f4eadb9277a9")
+	)
+	(wire
+		(pts
+			(xy 168.91 128.27) (xy 191.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e657207b-6c35-4bcb-8828-00a5e33d4ac6")
 	)
 	(wire
 		(pts
@@ -17819,6 +17975,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b4d23a7-28c1-4b37-8dbc-472973013ad9")
+		(property "Reference" "TP2"
+			(at 188.214 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 184.15 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33bfdf50-2f53-41d1-b2f4-74ccec30b45a")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 30.48 209.55 0)
 		(mirror y)
@@ -18296,6 +18519,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10d4fa5e-ab56-48fb-8efb-1cba298a8c16")
+		(property "Reference" "TP3"
+			(at 192.024 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 187.96 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfc8b5b4-0cfe-48c0-8c91-6922d9047120")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 88.9 62.23 0)
 		(unit 1)
@@ -18720,6 +19010,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "187e5ddc-4a02-4a9b-95d1-c01854791920")
+		(property "Reference" "TP6"
+			(at 170.434 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 166.37 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e28ed68-b6ba-4e42-a546-e3e68b6994fa")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -19833,7 +20190,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 176.53 133.35 270)
+		(at 196.85 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19841,7 +20198,7 @@
 		(dnp no)
 		(uuid "256347b5-de4e-4071-b18c-4053e27d27ad")
 		(property "Reference" "RN3"
-			(at 174.752 122.428 90)
+			(at 195.072 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,7 +20207,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 174.752 124.968 90)
+			(at 195.072 124.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19859,7 +20216,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 176.53 140.335 90)
+			(at 196.85 140.335 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19868,7 +20225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 133.35 0)
+			(at 196.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,7 +20234,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 176.53 133.35 0)
+			(at 196.85 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20043,6 +20400,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 181.61 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26c7f4d0-ae40-4f1c-b7c0-cc046bc5e74d")
+		(property "Reference" "TP5"
+			(at 183.134 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 179.07 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 181.61 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "226a180e-f9f8-4162-b7d4-75db4462fc56")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20294,6 +20718,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28633d9e-de9f-4e6c-96ad-92c094bc146b")
+		(property "Reference" "TP7"
+			(at 174.244 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd39c03-32c1-494f-9eb5-c1057167d51c")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -21792,7 +22283,7 @@
 		(dnp no)
 		(uuid "401aa355-031b-4308-8b28-c1c7bd8633ea")
 		(property "Reference" "R8"
-			(at 18.034 220.98 90)
+			(at 17.526 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21800,7 +22291,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 20.32 220.98 90)
+			(at 17.526 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23683,7 +24174,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 191.77 143.51 270)
+		(at 212.09 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23691,7 +24182,7 @@
 		(dnp no)
 		(uuid "615ae262-e78c-4718-a81b-1d55251b6255")
 		(property "Reference" "RN4"
-			(at 189.992 149.0979 90)
+			(at 210.312 149.0979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23700,7 +24191,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 189.992 151.6379 90)
+			(at 210.312 151.6379 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23709,7 +24200,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0402"
-			(at 191.77 150.495 90)
+			(at 212.09 150.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23718,7 +24209,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 143.51 0)
+			(at 212.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23727,7 +24218,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 191.77 143.51 0)
+			(at 212.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28108,7 +28599,7 @@
 	)
 	(symbol
 		(lib_id "SZG-TEMPLATE-STD:+3.3V-power")
-		(at 196.85 135.89 0)
+		(at 217.17 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28116,7 +28607,7 @@
 		(dnp no)
 		(uuid "b7733dfa-7ce2-443b-9fdf-b0184576677e")
 		(property "Reference" "#PWR065"
-			(at 196.85 139.7 0)
+			(at 217.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28125,7 +28616,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 197.231 131.4958 0)
+			(at 217.551 131.4958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28133,7 +28624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 135.89 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28142,7 +28633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 135.89 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,7 +28642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 135.89 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28873,7 +29364,7 @@
 	)
 	(symbol
 		(lib_id "SZG-TEMPLATE-STD:+3.3V-power")
-		(at 181.61 125.73 0)
+		(at 201.93 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28881,7 +29372,7 @@
 		(dnp no)
 		(uuid "d3050827-5621-4284-9715-deb7c2bc9c65")
 		(property "Reference" "#PWR020"
-			(at 181.61 129.54 0)
+			(at 201.93 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28890,7 +29381,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 181.991 121.3358 0)
+			(at 202.311 121.3358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28898,7 +29389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28907,7 +29398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28916,7 +29407,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29556,6 +30047,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3f6a810-fb9a-47bf-9b69-72a0b73ad806")
+		(property "Reference" "TP4"
+			(at 179.324 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 175.26 122.4281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2659665d-d594-4446-9e2f-83be0f660321")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
