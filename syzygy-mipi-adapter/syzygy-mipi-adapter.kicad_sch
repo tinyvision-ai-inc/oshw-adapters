@@ -10707,10 +10707,6 @@
 		(uuid "7c97fb70-ce10-4b4f-a7bb-5983c54b4eb1")
 	)
 	(no_connect
-		(at 320.04 107.95)
-		(uuid "7f49203d-c9a4-4969-b0dd-3f0803b1c778")
-	)
-	(no_connect
 		(at 153.67 207.01)
 		(uuid "8055d34c-3107-4363-ba87-cacec8a9bb4c")
 	)
@@ -10729,10 +10725,6 @@
 	(no_connect
 		(at 287.02 110.49)
 		(uuid "93c3beb8-78bc-44a7-b33d-1ea7c0294ff8")
-	)
-	(no_connect
-		(at 320.04 105.41)
-		(uuid "95033eac-45d9-40df-bfc5-923355cc4672")
 	)
 	(no_connect
 		(at 375.92 102.87)
@@ -11952,7 +11944,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 107.95) (xy 320.04 107.95)
+			(xy 314.96 107.95) (xy 334.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -12122,7 +12114,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 105.41) (xy 320.04 105.41)
+			(xy 314.96 105.41) (xy 334.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -21065,6 +21057,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 334.01 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b58788f-ae3c-4eec-aff5-82bcb7a88f49")
+		(property "Reference" "TP9"
+			(at 341.63 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 338.5819 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 334.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 334.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b0a70a4-6548-4f6e-bf83-092390d79f51")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 194.31 270)
 		(mirror x)
@@ -29735,6 +29794,73 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 334.01 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce0cd462-642a-446d-acca-76da3b17a2d0")
+		(property "Reference" "TP8"
+			(at 341.63 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 338.5819 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 334.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 334.01 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19000283-5884-434a-81f6-121efcbfb29d")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
