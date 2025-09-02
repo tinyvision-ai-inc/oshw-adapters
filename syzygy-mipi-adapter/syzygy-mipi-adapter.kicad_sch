@@ -9963,6 +9963,12 @@
 		(uuid "3d8ae042-c46c-40b3-8b76-2ca58dd714fc")
 	)
 	(junction
+		(at 190.5 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417a9dce-c925-46f9-92bb-a17d717dbed0")
+	)
+	(junction
 		(at 52.07 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10339,6 +10345,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4e6fec7-f57a-4a4f-afff-b714d6ee0e6b")
+	)
+	(junction
+		(at 190.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50236ce-42fb-45f6-9fa1-15e75fca5ebc")
 	)
 	(junction
 		(at 377.19 128.27)
@@ -10875,6 +10887,16 @@
 			(type default)
 		)
 		(uuid "085508f9-f612-4fe2-9870-123d2be691ee")
+	)
+	(wire
+		(pts
+			(xy 190.5 38.1) (xy 184.15 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0858eb79-f2c5-48ac-a22e-657a8a60b61d")
 	)
 	(wire
 		(pts
@@ -12028,7 +12050,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 49.53) (xy 184.15 50.8)
+			(xy 190.5 49.53) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12425,6 +12447,16 @@
 			(type default)
 		)
 		(uuid "5ab1e4a8-69f7-4f20-8816-45e1d608c570")
+	)
+	(wire
+		(pts
+			(xy 190.5 46.99) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2656c6-4eee-4536-a8f5-206a94cac9f8")
 	)
 	(wire
 		(pts
@@ -12855,6 +12887,16 @@
 			(type default)
 		)
 		(uuid "708973ff-d841-4d85-a9f2-31f0a360c613")
+	)
+	(wire
+		(pts
+			(xy 190.5 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7121d4ff-c858-45ea-b9d5-3f4bb8c31f12")
 	)
 	(wire
 		(pts
@@ -14695,6 +14737,16 @@
 			(type default)
 		)
 		(uuid "d48347a6-0a51-4380-8a8d-7a96ef5a99a2")
+	)
+	(wire
+		(pts
+			(xy 190.5 39.37) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ddfb33-c59e-467c-a8e7-596399508b68")
 	)
 	(wire
 		(pts
@@ -29195,6 +29247,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 190.5 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca73b7c4-fc9f-42fb-beab-b2887f496744")
+		(property "Reference" "C13"
+			(at 190.5 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 191.135 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 191.4652 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" ""
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Mouser"
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b42442be-d40d-4bcd-b725-5101b74cc0e0")
+		)
+		(pin "2"
+			(uuid "e49cbf20-9d77-4c6d-a6aa-0359e6689d68")
+		)
+		(instances
+			(project "syzygy-mipi-adapter"
+				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 68.58 0)
 		(unit 1)
@@ -29520,7 +29677,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 184.15 38.1 0)
+		(at 190.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29528,7 +29685,7 @@
 		(dnp no)
 		(uuid "d51556b1-b134-49ed-bd9d-f2eadde36e4c")
 		(property "Reference" "#PWR018"
-			(at 184.15 41.91 0)
+			(at 190.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29537,7 +29694,7 @@
 			)
 		)
 		(property "Value" "P3V3D"
-			(at 184.531 33.7058 0)
+			(at 190.881 33.7058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29545,7 +29702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29554,7 +29711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29563,7 +29720,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 184.15 38.1 0)
+			(at 190.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30946,7 +31103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 50.8 0)
+		(at 190.5 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30954,7 +31111,7 @@
 		(dnp no)
 		(uuid "f6521ffb-6d66-4502-829f-cdd642285527")
 		(property "Reference" "#PWR019"
-			(at 184.15 57.15 0)
+			(at 190.5 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30963,7 +31120,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.277 55.1942 0)
+			(at 190.627 55.1942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30971,7 +31128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 50.8 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30980,7 +31137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 50.8 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30989,7 +31146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 50.8 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
