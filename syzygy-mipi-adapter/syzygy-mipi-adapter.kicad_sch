@@ -25592,7 +25592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CUSTOM:tinyAI_logo"
+		(property "Footprint" "CUSTOM:tinyAI_4_5mm"
 			(at 367.03 240.284 0)
 			(effects
 				(font
