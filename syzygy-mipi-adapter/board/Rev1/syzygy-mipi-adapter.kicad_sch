@@ -10113,7 +10113,7 @@
 		(uuid "41935d29-288b-455e-ae63-7befd0576db6")
 	)
 	(junction
-		(at 186.69 227.33)
+		(at 179.07 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4243b1e9-ee81-4d1a-bf38-63d59f63bcf6")
@@ -10287,7 +10287,7 @@
 		(uuid "6f44f5d0-3bca-4fe9-b470-4e6a59f4aaaf")
 	)
 	(junction
-		(at 198.12 229.87)
+		(at 190.5 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74dbbf20-3908-4c91-bd68-eeb9905907a2")
@@ -10467,7 +10467,7 @@
 		(uuid "b3dc388f-61db-46fc-9f38-d8e848eb6bdf")
 	)
 	(junction
-		(at 173.99 224.79)
+		(at 166.37 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4e6fec7-f57a-4a4f-afff-b714d6ee0e6b")
@@ -10543,12 +10543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c595fc10-0109-4825-9f80-eede9cebba18")
-	)
-	(junction
-		(at 162.56 222.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca0335ae-f6f4-48fc-8fd5-c5bbf7219ad9")
 	)
 	(junction
 		(at 57.15 153.67)
@@ -10669,6 +10663,10 @@
 	(no_connect
 		(at 153.67 123.19)
 		(uuid "279a4c92-fea7-4489-b0d8-5841d4d7a157")
+	)
+	(no_connect
+		(at 153.67 222.25)
+		(uuid "2f38d0bb-ca66-4e7f-a0cf-fb319581418d")
 	)
 	(no_connect
 		(at 153.67 217.17)
@@ -11644,16 +11642,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 222.25) (xy 162.56 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231a46ed-6ad4-4e9d-b62a-01e81ef36aa7")
-	)
-	(wire
-		(pts
 			(xy 217.17 135.89) (xy 217.17 138.43)
 		)
 		(stroke
@@ -11694,7 +11682,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 224.79) (xy 173.99 224.79)
+			(xy 153.67 224.79) (xy 166.37 224.79)
 		)
 		(stroke
 			(width 0)
@@ -11964,7 +11952,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 218.44) (xy 186.69 227.33)
+			(xy 179.07 218.44) (xy 179.07 227.33)
 		)
 		(stroke
 			(width 0)
@@ -12374,7 +12362,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 229.87) (xy 198.12 236.22)
+			(xy 190.5 229.87) (xy 190.5 236.22)
 		)
 		(stroke
 			(width 0)
@@ -12401,16 +12389,6 @@
 			(type default)
 		)
 		(uuid "4e416c0a-fc71-439c-9e44-86edb2690141")
-	)
-	(wire
-		(pts
-			(xy 153.67 222.25) (xy 162.56 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e699657-267e-4fab-be7b-9f565c401ca4")
 	)
 	(wire
 		(pts
@@ -13114,7 +13092,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 227.33) (xy 186.69 227.33)
+			(xy 153.67 227.33) (xy 179.07 227.33)
 		)
 		(stroke
 			(width 0)
@@ -14164,7 +14142,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 218.44) (xy 198.12 229.87)
+			(xy 190.5 218.44) (xy 190.5 229.87)
 		)
 		(stroke
 			(width 0)
@@ -14464,7 +14442,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 227.33) (xy 186.69 237.49)
+			(xy 179.07 227.33) (xy 179.07 237.49)
 		)
 		(stroke
 			(width 0)
@@ -14654,7 +14632,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 224.79) (xy 173.99 237.49)
+			(xy 166.37 224.79) (xy 166.37 237.49)
 		)
 		(stroke
 			(width 0)
@@ -14744,7 +14722,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 229.87) (xy 198.12 229.87)
+			(xy 153.67 229.87) (xy 190.5 229.87)
 		)
 		(stroke
 			(width 0)
@@ -14891,16 +14869,6 @@
 			(type default)
 		)
 		(uuid "d594b45e-0da3-4cdb-b00d-a74d5123ad97")
-	)
-	(wire
-		(pts
-			(xy 162.56 218.44) (xy 162.56 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d636e8c8-a345-4e00-8272-fa1986604648")
 	)
 	(wire
 		(pts
@@ -15274,7 +15242,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 218.44) (xy 173.99 224.79)
+			(xy 166.37 218.44) (xy 166.37 224.79)
 		)
 		(stroke
 			(width 0)
@@ -16273,7 +16241,7 @@
 		(uuid "7c315067-0c94-4a84-ad98-a98bd54b146a")
 	)
 	(label "R_GA"
-		(at 198.12 236.22 270)
+		(at 190.5 236.22 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18432,7 +18400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 242.57 0)
+		(at 179.07 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18440,7 +18408,7 @@
 		(dnp no)
 		(uuid "0d4ab052-aecb-456e-b0cf-743c81fbe7ad")
 		(property "Reference" "#PWR061"
-			(at 186.69 248.92 0)
+			(at 179.07 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18449,7 +18417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.817 246.9642 0)
+			(at 179.197 246.9642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18457,7 +18425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 242.57 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18466,7 +18434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 242.57 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18475,7 +18443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 242.57 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18901,7 +18869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14cb44a3-5c19-4593-90c5-e63e72edc73a")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 323.85 145.542 0)
 			(effects
 				(font
@@ -19036,7 +19004,7 @@
 		(instances
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19149,7 +19117,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 198.12 215.9 180)
+		(at 190.5 215.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19157,7 +19125,7 @@
 		(dnp no)
 		(uuid "1838b08c-5f23-475f-a3c2-38be153b8768")
 		(property "Reference" "R18"
-			(at 193.04 214.376 0)
+			(at 185.42 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19134,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 193.04 216.6874 0)
+			(at 185.42 216.6874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19175,7 +19143,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 198.12 215.9 0)
+			(at 190.5 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19184,7 +19152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 215.9 0)
+			(at 190.5 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +19161,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 198.12 215.9 0)
+			(at 190.5 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19481,7 +19449,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 240.03 0)
+		(at 179.07 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19489,7 +19457,7 @@
 		(dnp no)
 		(uuid "1ab8d118-6ee1-4bc3-836d-3e499d74341a")
 		(property "Reference" "R27"
-			(at 182.88 238.506 0)
+			(at 175.26 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19497,7 +19465,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 183.134 240.792 0)
+			(at 175.514 240.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19505,7 +19473,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19514,7 +19482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19523,7 +19491,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,7 +19500,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19541,7 +19509,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19550,7 +19518,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19559,7 +19527,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 186.69 240.03 0)
+			(at 179.07 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19592,7 +19560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b2db57e-c08e-4542-8bba-34d06d63f95a")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 372.11 145.542 0)
 			(effects
 				(font
@@ -19727,7 +19695,7 @@
 		(instances
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -20129,109 +20097,6 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 162.56 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22785339-8ed7-4788-bc78-41a84d3dc095")
-		(property "Reference" "R10"
-			(at 158.75 214.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 159.004 216.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 162.56 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbdbc8b1-ce78-444e-b650-84b77ba0ecca")
-		)
-		(pin "2"
-			(uuid "add2131a-abbf-4314-ae45-8b3854e1511d")
-		)
-		(instances
-			(project "syzygy-mipi-adapter"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -20986,71 +20851,6 @@
 			(project "syzygy-mipi-adapter"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 162.56 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b43ad54-a126-412f-9271-00af3d634816")
-		(property "Reference" "#PWR034"
-			(at 162.56 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.687 246.9642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc7dc13c-6c6f-4b26-834d-309fbe682648")
-		)
-		(instances
-			(project "syzygy-mipi-adapter"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23150,7 +22950,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 186.69 215.9 0)
+		(at 179.07 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23158,7 +22958,7 @@
 		(dnp no)
 		(uuid "45781b64-09dd-4841-a0fc-69589e9d4ad7")
 		(property "Reference" "R26"
-			(at 182.88 214.376 0)
+			(at 175.26 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23166,7 +22966,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 183.134 216.662 0)
+			(at 175.514 216.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23174,7 +22974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23183,7 +22983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23192,7 +22992,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23201,7 +23001,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23210,7 +23010,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23219,7 +23019,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23228,7 +23028,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 186.69 215.9 0)
+			(at 179.07 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23765,7 +23565,7 @@
 	)
 	(symbol
 		(lib_id "SZG-TEMPLATE-STD:+3.3V-power")
-		(at 173.99 213.36 0)
+		(at 166.37 213.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23774,7 +23574,7 @@
 		(dnp no)
 		(uuid "5175ac68-3805-4f0f-bf4a-a9634fc3e255")
 		(property "Reference" "#PWR039"
-			(at 173.99 217.17 0)
+			(at 166.37 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23783,7 +23583,7 @@
 			)
 		)
 		(property "Value" "PVIOD"
-			(at 173.99 209.55 0)
+			(at 166.37 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23791,7 +23591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 213.36 0)
+			(at 166.37 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23800,7 +23600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 213.36 0)
+			(at 166.37 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23809,7 +23609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 213.36 0)
+			(at 166.37 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25848,7 +25648,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 242.57 0)
+		(at 166.37 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25856,7 +25656,7 @@
 		(dnp no)
 		(uuid "7f6bc4c4-60a4-41ba-ad19-3bae82c8b77b")
 		(property "Reference" "#PWR036"
-			(at 173.99 248.92 0)
+			(at 166.37 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25865,7 +25665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 174.117 246.9642 0)
+			(at 166.497 246.9642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25873,7 +25673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 242.57 0)
+			(at 166.37 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25882,7 +25682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 242.57 0)
+			(at 166.37 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25891,7 +25691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 242.57 0)
+			(at 166.37 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26001,7 +25801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 173.99 215.9 0)
+		(at 166.37 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26009,7 +25809,7 @@
 		(dnp no)
 		(uuid "814aa63a-cec4-44c3-b5b4-fb6211002de8")
 		(property "Reference" "R7"
-			(at 170.18 214.376 0)
+			(at 162.56 214.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26017,7 +25817,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 170.434 216.662 0)
+			(at 162.814 216.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26025,7 +25825,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26034,7 +25834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26043,7 +25843,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26052,7 +25852,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26061,7 +25861,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26070,7 +25870,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26079,7 +25879,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 173.99 215.9 0)
+			(at 166.37 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27769,7 +27569,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 213.36 0)
+		(at 179.07 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27777,7 +27577,7 @@
 		(dnp no)
 		(uuid "a74791ca-396f-4d14-92da-91f0b89daab0")
 		(property "Reference" "#PWR059"
-			(at 186.69 217.17 0)
+			(at 179.07 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27786,7 +27586,7 @@
 			)
 		)
 		(property "Value" "PVBUS"
-			(at 186.69 209.55 0)
+			(at 179.07 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27794,7 +27594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 213.36 0)
+			(at 179.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27803,7 +27603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 213.36 0)
+			(at 179.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27812,7 +27612,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 213.36 0)
+			(at 179.07 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28733,71 +28533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 162.56 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4454cba-601a-45ee-92ac-59251f0ae4f8")
-		(property "Reference" "#PWR066"
-			(at 162.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "P3V3D"
-			(at 162.56 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 162.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e51aa30c-d954-443c-b761-9675cb82ddb2")
-		)
-		(instances
-			(project "syzygy-mipi-adapter"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 245.11 0)
 		(unit 1)
@@ -29326,109 +29061,6 @@
 			(project "szg-mipi"
 				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 162.56 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c335a888-c95f-44a4-b098-9a7acffaf964")
-		(property "Reference" "R11"
-			(at 158.75 238.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56K"
-			(at 159.004 240.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" ""
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0727RL"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 162.56 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68ac1fb1-97e7-4f1d-8b87-44f0a28a8c91")
-		)
-		(pin "2"
-			(uuid "3a989113-fb3e-4daf-9246-bdc7081fd343")
-		)
-		(instances
-			(project "syzygy-mipi-adapter"
-				(path "/b75d5d5b-a423-49b6-bf7a-b3510d05dcb9"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -30397,7 +30029,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 173.99 240.03 0)
+		(at 166.37 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30405,7 +30037,7 @@
 		(dnp no)
 		(uuid "d6f42b5b-a0ae-4c0e-b6db-c9cbf3c0a5e2")
 		(property "Reference" "R12"
-			(at 170.18 238.506 0)
+			(at 162.56 238.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30413,7 +30045,7 @@
 			)
 		)
 		(property "Value" "56K"
-			(at 170.434 240.792 0)
+			(at 162.814 240.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30421,7 +30053,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30430,7 +30062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30439,7 +30071,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30448,7 +30080,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" ""
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30457,7 +30089,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0727RL"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30466,7 +30098,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30475,7 +30107,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 173.99 240.03 0)
+			(at 166.37 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31102,7 +30734,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 198.12 213.36 0)
+		(at 190.5 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31110,7 +30742,7 @@
 		(dnp no)
 		(uuid "ec46db5a-ab36-49de-a8ed-59373c5fe0c4")
 		(property "Reference" "#PWR067"
-			(at 198.12 217.17 0)
+			(at 190.5 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31118,8 +30750,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "P3V3D"
-			(at 198.12 209.55 0)
+		(property "Value" "PMCUD"
+			(at 190.5 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31127,7 +30759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 213.36 0)
+			(at 190.5 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31136,7 +30768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 213.36 0)
+			(at 190.5 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31145,7 +30777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 198.12 213.36 0)
+			(at 190.5 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
