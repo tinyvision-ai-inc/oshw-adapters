@@ -17390,7 +17390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 8.89 274.32 0)
 			(effects
 				(font
@@ -17546,7 +17546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 180.34 274.32 0)
 			(effects
 				(font
@@ -18521,7 +18521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 222.25 274.32 0)
 			(effects
 				(font
@@ -18919,7 +18919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FPC:501951-2230"
+		(property "Footprint" "CUSTOM:501951-2230"
 			(at 322.58 177.8 0)
 			(effects
 				(font
@@ -19610,7 +19610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FPC:501951-2230"
+		(property "Footprint" "CUSTOM:501951-2230"
 			(at 370.84 177.8 0)
 			(effects
 				(font
@@ -22481,7 +22481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:L_pol_2016"
+		(property "Footprint" "CUSTOM:L_pol_2016"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -22869,7 +22869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RP2350_60QFN_minimal:RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm"
+		(property "Footprint" "CUSTOM:RP2350B_QFN-80_EP_10.573x10.573_Pitch0.4mm"
 			(at 97.79 140.97 0)
 			(effects
 				(font
@@ -25108,7 +25108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 44.45 274.32 0)
 			(effects
 				(font
@@ -25437,7 +25437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 111.76 274.32 0)
 			(effects
 				(font
@@ -26193,7 +26193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 77.47 274.32 0)
 			(effects
 				(font
@@ -27164,7 +27164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FPC:501951-2230"
+		(property "Footprint" "CUSTOM:501951-2230"
 			(at 370.84 95.25 0)
 			(effects
 				(font
@@ -29460,7 +29460,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 147.32 274.32 0)
 			(effects
 				(font
@@ -30094,7 +30094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FPC:PUSB3F96X"
+		(property "Footprint" "CUSTOM:PUSB3F96X"
 			(at 257.81 274.32 0)
 			(effects
 				(font
